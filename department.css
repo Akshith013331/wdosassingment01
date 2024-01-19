@@ -1,0 +1,79 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/A-DEPARTMENT.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/A-DEPARTMENT.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+ }
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 45px;
+}
+
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 25px;
+    }
+}
+
+.department{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.department-1{
+    background:#F2EFEE;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.department-1 p, h2{
+    padding: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
